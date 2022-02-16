@@ -25,10 +25,16 @@ namespace MicrosoftCodilityExcercise
             //task = Task2.solution("baaabbaabbba");
             //task = Task2.solution("baabab");
 
-            var task = UniqueCharSubstring.distinctSubString("world");
-             task = UniqueCharSubstring.distinctSubString("dddd");
-             task = UniqueCharSubstring.distinctSubString("cycle");
-             task = UniqueCharSubstring.distinctSubString("abba");
+            //var task = UniqueCharSubstring.distinctSubString("world");
+            // task = UniqueCharSubstring.distinctSubString("dddd");
+            // task = UniqueCharSubstring.distinctSubString("cycle");
+            // task = UniqueCharSubstring.distinctSubString("abba");
+
+            var task = FixPotholes.solution("...xxx..x....xxx.", 7);
+             task = FixPotholes.solution("..xxxxx",4);
+             task = FixPotholes.solution("x.x.xxx...x", 14);
+             task = FixPotholes.solution("..", 5);
+
             Console.WriteLine("Hello World!");
         }
     }
