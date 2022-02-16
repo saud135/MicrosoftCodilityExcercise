@@ -10,7 +10,7 @@ namespace MicrosoftCodilityExcercise
 
             //var ExpResult = ExampleTask.solution(A);
 
-            //var task1 = Task1.solution("nlaebolko");
+            var task1 = Task1.solution("nlaebolko");
             //task1 = Task1.solution("saudloon");
             //task1 = Task1.solution("loonbalxballpoon");
             //task1 = Task1.solution("BAONXXOLL"); 
@@ -21,11 +21,14 @@ namespace MicrosoftCodilityExcercise
             //task = Task3.solution(1,8);
 
 
-            var task = Task2.solution("baaaaa");
-            task = Task2.solution("baaabbaabbba");
-            task = Task2.solution("baabab");
+            //var task = Task2.solution("baaaaa");
+            //task = Task2.solution("baaabbaabbba");
+            //task = Task2.solution("baabab");
 
-
+            var task = UniqueCharSubstring.distinctSubString("world");
+             task = UniqueCharSubstring.distinctSubString("dddd");
+             task = UniqueCharSubstring.distinctSubString("cycle");
+             task = UniqueCharSubstring.distinctSubString("abba");
             Console.WriteLine("Hello World!");
         }
     }
